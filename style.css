@@ -1,0 +1,60 @@
+.header {
+  background-color: black;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.boton-header {
+  height: 40px;
+  margin: 5px;
+}
+
+.seccion-titulo {
+  background-image: url(multimedia/codigo.jpeg);
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagenes {
+  width: 300px;
+}
+
+.titulo-ppal {
+  color: white;
+  text-align: center;
+  background-color: grey;
+}
+
+h2 {
+  text-align: center;
+}
+
+.seccion-centro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.recuadro {
+  border: 1px solid black;
+  width: 300px;
+  height: 300px;
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.texto {
+  text-align: center;
+}
+
+.footer {
+  text-align: right;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+}
