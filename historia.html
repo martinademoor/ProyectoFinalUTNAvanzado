@@ -5,20 +5,23 @@
     <meta charset="UTF-8" />
     <link href="style.css" rel="stylesheet" />
   </head>
-  <body class="body">
-    <header class="header">
+  <body id="body">
+    <nav class="nav">
       <img />
-      <button class="boton-header"><a href="historia.html">HISTORIA</a></button>
-      <button class="boton-header">
-        <a href="poneraprueba.html">JUGUEMOS</a>
-      </button>
-    </header>
-    <section class="seccion-titulo">
-      <h1 class="titulo-ppal">PROGRAMACION E HISTORIA</h1>
-      //con background image
-    </section>
-    <section>
       <div>
+        <button class="boton-nav">
+          <a class="link-nav" href="historia.html">HISTORIA</a>
+        </button>
+        <button class="boton-nav">
+          <a class="link-nav" href="poneraprueba.html">JUGUEMOS</a>
+        </button>
+      </div>
+    </nav>
+    <header class="seccion-titulo">
+      <h1 id="titulo-ppal">HISTORIA DE LA PROGRAMACION</h1>
+    </header>
+    <main>
+      <div class="texto-historia">
         <h3>El principio de la historia de la programación</h3>
         <p>
           El primer lenguaje de programación fue un algoritmo creado por Ada
@@ -28,6 +31,8 @@
           códigos informáticos fueron especializados por Alonzo Church y Alan
           Turing. Church expresó el cálculo lambda de forma formulativa.
         </p>
+      </div>
+      <div class="texto-historia">
         <p>
           Los primeros ordenadores modernos (alimentados eléctricamente) fueron
           creados en los años 40. Estas computadoras estaban limitadas en
@@ -41,25 +46,70 @@
         </p>
         <h3>Lenguaje de ensamblaje</h3>
       </div>
-      <div>
+      <div class="texto-historia-largo">
         <h3>Los primeros lenguajes de programación</h3>
-        <p>(texto largo)</p>
+        <p>
+          FORmulaTRANslation es el lenguaje de programación más antiguo y que
+          continúa en uso. Creada por John Backus en 1957, esta herramienta fue
+          desarrollada para la computación científica de alto nivel, matemáticas
+          y estadísticas. A día de hoy, este lenguaje se sigue usando en la
+          industria automovilística, aeroespacial, gubernamental y la
+          investigación. Por ejemplo, es muy útil para el pronóstico de los
+          servicios meteorológicos.<br /><br />
+          En 1959 se desarrollo Cobol, que está detrás de la mayoría de los
+          sistemas de transacciones de negocio de los procesos de las tarjetas
+          de crédito, ATMs (Modo de Transferencia Asíncrona), telefonía,
+          sistemas hospitalarios, gobierno, sistemas automatizados y señales de
+          tráfico.<br />
+          El desarrollo de Cobol, creado por Grace Murray Hopper, muestra un
+          lenguaje famipar y uniforme para transacciones empresariales. Por
+          ejemplo, lo usan en el servicio postal estadounidense<br /><br />
+          En 1964 se creo Basic, que fue diseñado como un lenguaje simppficado
+          para aquellos que no tenían como base fuertes conocimientos técnicos o
+          matemáticos.<br /><br />
+          Entre 1969 y 1973 se crea C,a manos de Dennis Ritchie para los
+          laboratorios Bell Telephone para usarlos en el sistema Unix. Se le
+          llamó «C» porque sus características derivaban de un lenguaje anterior
+          llamado «B».<br /><br />
+          En los laboratorios Bells, Bjarne Stroustrup modificó el lenguaje C al
+          C++, creando lo que muchos consideran el lenguaje de programación más
+          popular que ha existido nunca. Además, ha sido listado en lo alto de
+          los top ten de los lenguajes de programación desde 1986 y archivado en
+          el Hall of Fame en 2003. Hoy en día es usado por Firefox, Office y
+          Adobe PDF Reader<br />
+          Esto dio el puntapie a que se sigan perfeccionando los lenguajes hasta
+          llegar al os lenguajes de hoy en dia.
+        </p>
       </div>
-      <div>
+      <article class="contenedor-video">
         <h2>Un breve video para complementar lo visto</h2>
-        <video>(completar)</video>
-        <div>
-          <button><img src="./multimedia/play.svg" alt="boton play" /></button>
-          <button>
-            <img src="./multimedia/pausa.svg" alt="boton pausa" />
-          </button>
-          <p>Duración video:</p>
-        </div>
+        <section id="video">
+          <video poster="./multimedia/img-video.jpg" width="100%">
+            <source src="./multimedia/historia-Comp.mp4" />
+            <source src="./multimedia/historia-Comp.ogv" />
+          </video>
+          <div id="barra-video">
+            <div class="botones-video">
+              <button class="boton-video">
+                <img src="./multimedia/play.svg" alt="boton play" />
+              </button>
+              <button class="boton-video">
+                <img src="./multimedia/pausa.svg" alt="boton pausa" />
+              </button>
+            </div>
+            <div id="duracion">Duración video:</div>
+          </div>
+        </section>
+      </article>
+    </main>
+    <footer class="footer">
+      <div>
+        <img />
+        <p>
+          PROGRAMACION <br />E<br />
+          HISTORIA
+        </p>
       </div>
-    </section>
-    <footer>
-      <img />
-      <p><b>PROGRAMACION E HISTORIA</b></p>
       <p>Sitio con fines educativos - Creado por M.Victoria Lopez</p>
     </footer>
   </body>
