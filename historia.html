@@ -83,17 +83,17 @@
       </div>
       <article class="contenedor-video">
         <h2>Un breve video para complementar lo visto</h2>
-        <section id="video">
-          <video poster="./multimedia/img-video.jpg" width="100%">
+        <section id="container">
+          <video id="video" poster="./multimedia/img-video.jpg" width="100%">
             <source src="./multimedia/historia-Comp.mp4" />
             <source src="./multimedia/historia-Comp.ogv" />
           </video>
           <div id="barra-video">
             <div class="botones-video">
-              <button class="boton-video">
+              <button id="play" class="boton-video">
                 <img src="./multimedia/play.svg" alt="boton play" />
               </button>
-              <button class="boton-video">
+              <button id="pausa" class="boton-video">
                 <img src="./multimedia/pausa.svg" alt="boton pausa" />
               </button>
             </div>
@@ -112,5 +112,6 @@
       </div>
       <p>Sitio con fines educativos - Creado por M.Victoria Lopez</p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
