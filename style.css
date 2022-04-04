@@ -4,6 +4,7 @@
 
 #body {
   background-color: #427e80;
+  margin: 0px;
 }
 
 .nav {
@@ -19,6 +20,11 @@
   display: flex;
   justify-content: space-around;
 }
+
+#logo-compu{
+  padding-top: 10px;
+}
+
 
 .boton-nav {
   height: 40px;
@@ -189,6 +195,7 @@ h2 {
   color: white;
 }
 
+
 .footer {
   height: 80px;
   display: flex;
@@ -209,6 +216,7 @@ h2 {
   font-weight: bold;
   font-size: 14px;
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .footer > p {
@@ -216,3 +224,7 @@ h2 {
   justify-content: flex-end;
   margin-right: 10px;
 }
+
+
+
+/*ANIMACION*/
