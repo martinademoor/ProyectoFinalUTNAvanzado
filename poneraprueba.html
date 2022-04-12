@@ -17,18 +17,33 @@
         </svg>
       </a>
       <div>
-        <button class="boton-nav">
-          <a class="link-nav" href="historia.html">HISTORIA</a>
-        </button>
-        <button class="boton-nav">
-          <a class="link-nav" href="poneraprueba.html">JUGUEMOS</a>
-        </button>
+        <a class="boton-nav" href="historia.html">HISTORIA</a>
+        <a class="boton-nav" href="poneraprueba.html">JUGUEMOS</a>
       </div>
     </nav>
     <header class="seccion-titulo">
       <h1 id="titulo-ppal">JUGUEMOS UN POCO</h1>
     </header>
-    <main></main>
+    <main>
+      <h3>Armemos el rompecabezas y veamos que imagen es...</h3>
+      <section class="cajas">
+        <div class="caja">
+          <p>Arrastre y suelte la imágen aqui</p>
+        </div>
+        <div class="caja">
+          <p>Arrastre y suelte la imágen aqui</p>
+        </div>
+        <div class="caja">
+          <p>Arrastre y suelte la imágen aqui</p>
+        </div>
+      </section>
+      <section class="piezas">
+        <img id="pieza-2" class="pieza" src="./multimedia/rompe2.png" alt="pieza-rompecabezas">
+        <img id="pieza-1" class="pieza" src="./multimedia/Rompe1.png" alt="pieza-rompecabezas">
+        <img id="pieza-3" class="pieza" src="./multimedia/Rompe3.png" alt="pieza-rompecabezas">
+      </section>
+      <button id="reiniciar" class="boton-nav boton-reiniciar">Reiniciar</button>
+    </main>
     <footer class="footer">
       <div>
         <img src="./multimedia/logo.svg" alt="logo"/>
@@ -39,5 +54,6 @@
       </div>
       <p>Sitio con fines educativos - Creado por M.Victoria Lopez</p>
     </footer>
+    <script src="./scriptjuego.js"></script>
   </body>
 </html>
