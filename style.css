@@ -39,6 +39,10 @@ main{
   font-weight: 300;
 }
 
+.boton-nav:active{
+  transform: translate(3px,2px);
+}
+
 .seccion-titulo {
   background: url(multimedia/codigo.jpeg) 50% 0 fixed;
   min-height: 530px;
@@ -95,6 +99,10 @@ h2 {
   text-decoration: none;
   font-size: 15px;
   text-align: center;
+}
+
+.boton-recuadro:active{
+  transform: translate(3px,3px);
 }
 
 .texto {
